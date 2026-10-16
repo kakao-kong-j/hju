@@ -120,9 +120,9 @@ h1>small { color:#bec8b6; font-family:serif; font-size:28px; font-weight:400; le
 .pin-bubble.pin-group { width:39px; height:39px; border-width:4px; background:#315c4e; box-shadow:0 0 0 5px #315c4e1c; }
 .pin-bubble.selected { outline:3px solid #e0ad6e; outline-offset:3px; }
 .travel-tooltip { border:1px solid #e2e8d9!important; border-radius:9px!important; padding:9px!important; box-shadow:0 4px 20px #233a3020!important; color:#334a3b!important; }
-.map-tooltip-content { display:flex; align-items:center; gap:10px; max-width:280px; white-space:normal; }
+.map-tooltip-content { display:flex; align-items:center; gap:10px; width:260px; max-width:calc(100vw - 52px); white-space:normal; }
 .map-tooltip-content .place-photo { width:53px; height:51px; border-radius:5px; }
-.map-tooltip-content>div:last-child { display:flex; flex-direction:column; gap:5px; }
+.map-tooltip-content>div:last-child { display:flex; flex:1; min-width:0; flex-direction:column; gap:5px; word-break:keep-all; overflow-wrap:anywhere; }
 .map-tooltip-content strong { font-size:12px; }
 .map-tooltip-content span { font-size:10px; color:#8c9784; }
 .map-tooltip-content small { font-size:9px; color:#b48b53; }
